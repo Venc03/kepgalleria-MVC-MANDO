@@ -1,0 +1,69 @@
+#kepElem {
+    width: 70%;
+    border-radius: 15px;
+    border: 5px solid rgb(32, 32, 32);
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fotarolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    width: 70%;
+    border: 5px solid rgb(32, 32, 32);
+    padding: 10px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    color: rgb(122, 122, 122);
+    display: flex;
+    width: 9%;
+    padding: 5px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(32, 32, 32);
+    border-radius: 5px; 
+}
+
+header{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(1px);
+    font-size: large;
+}
+
+.bal{
+    font-size: 30px;
+    width: 10%; 
+    height: 250px;
+    filter: blur(1px);
+    background-color: rgb(32, 32, 32);
+}
+
+.jobb{
+    font-size: 30px;
+    width: 10%;
+    height: 250px;
+    filter: blur(1px);
+    background-color: rgb(32, 32, 32);
+}
