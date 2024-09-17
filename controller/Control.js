@@ -1,5 +1,5 @@
 import Model from "../model/Model.js";
-import Tarolo from "../view/tarolo.js";
+import Tarolo from "../view/Tarolo.js";
 
 class Control {
     constructor(){
