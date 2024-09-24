@@ -1,4 +1,6 @@
 import Model from "../model/Model.js";
+import Kartya from "../view/Kartya.js";
+import Kartyak from "../view/Kartyak.js";
 import Tarolo from "../view/Tarolo.js";
 
 class Control {
@@ -16,6 +18,8 @@ class Control {
             let akt = MODEL.getAktKep();
             KEP.kepSet  (akt);
         })
+        const KARTYAK = new Kartya();
+        const KEPEK = new Kartyak($(".kepekTarolo"), KARTYAK.kepMutat())
     }
 
 }
